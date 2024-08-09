@@ -19,10 +19,10 @@ function AuthForm({ onSubmit, switchView, isRegister }) {
     setPassword("")
     
   };
-
+  
   return (
     <div className="form-container authFrom">
-      <h2>{isRegister ? 'Register' : 'Wellocme to Upadate Social App'}</h2>
+      <h2>{isRegister ? 'Register' : 'Hi, Welcome back! 👋'}</h2>
       <form onSubmit={handleSubmit} className='fromEle'>
         {isRegister ? (
           <>

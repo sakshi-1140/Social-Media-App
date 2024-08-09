@@ -43,8 +43,6 @@ function App() {
     alert('Invalid name/email or password');
   };
 
-  
-
   const switchView = (newView) => {
     setView(newView);
   };
@@ -65,7 +63,7 @@ function App() {
           isRegister={false}
         />
       )}
-      {view === 'profile' && <Profile user={user}/>}
+      {/* {view === 'profile' && <Profile user={user}/>} */ }
     </div>
   ); 
     

@@ -23,14 +23,12 @@ const router = createBrowserRouter([
     ]
   }
 ], {
-  basename: "/social_app" // Add the basename here
+  basename: "/Social-Media-App" // Add the basename here
 });
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RouterProvider router = {router}/>
-    
-    
+  <RouterProvider router = {router}/>  
 );
 
